@@ -1,0 +1,257 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{3CB85D5C-CF9C-4799-B9BE-0A1C177DABA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{0FB0C17E-72F8-4A7C-8D5C-66BE52936BC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityLayer", "EntityLayer", "{F1823ED0-C006-4E6F-859A-6A4B9ACCBBCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLayer", "TestLayer", "{2C9A05EA-AC53-4E09-B9D2-EA203921DB21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{6DC67893-7928-487D-A397-DB30CCF13D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLayer", "CommonLayer", "{CAAD855C-793C-48ED-B396-1BF8BAF602F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Business", "BusinessLayer\Roadlight.Business\Roadlight.Business.csproj", "{1344941C-F3A1-490E-9AE2-FDF4E458950B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Entity", "EntityLayer\Roadlight.Entity\Roadlight.Entity.csproj", "{2C23C782-94C1-409B-8FB1-B61F3730F95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Model", "EntityLayer\Roadlight.Model\Roadlight.Model.csproj", "{0F457A6D-F6A5-4543-B019-A18CDD79673E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.DTO", "EntityLayer\Roadlight.DTO\Roadlight.DTO.csproj", "{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Utility", "CommonLayer\Roadlight.Utility\Roadlight.Utility.csproj", "{F3EE215A-2351-4FC7-A8CC-1159211740E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APILayer", "APILayer", "{664EAAC0-92EA-440D-8CA2-63B5A41A70D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper NET45", "APILayer\dapper-dot-net-master\Dapper NET45\Dapper NET45.csproj", "{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitMapper", "APILayer\EmitMapper\EmitMapper.csproj", "{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net40", "APILayer\Newtonsoft.Json\Newtonsoft.Json.Net40.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.DB", "DataLayer\Roadlight.DB\Roadlight.DB.csproj", "{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Web", "PresentationLayer\Roadlight.Web\Roadlight.Web.csproj", "{88CE2922-F17E-4C63-9D01-3F5F6B657171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.ServiceModel", "EntityLayer\Roadlight.ServiceModel\Roadlight.ServiceModel.csproj", "{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.ServiceAgent", "DataLayer\Roadlight.ServiceAgent\Roadlight.ServiceAgent.csproj", "{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql.Data", "APILayer\MySql.Data\MySql.Data.csproj", "{47266636-A5CD-481A-A6D5-0CE5065A3385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roadlight.Backend", "PresentationLayer\Roadlight.Backend\Roadlight.Backend.csproj", "{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 25
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://jishu-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessLayer\\Roadlight.Business\\Roadlight.Business.csproj
+		SccProjectTopLevelParentUniqueName1 = Roadlight.sln
+		SccProjectName1 = BusinessLayer/Roadlight.Business
+		SccLocalPath1 = BusinessLayer\\Roadlight.Business
+		SccProjectUniqueName2 = CommonLayer\\Roadlight.Utility\\Roadlight.Utility.csproj
+		SccProjectTopLevelParentUniqueName2 = Roadlight.sln
+		SccProjectName2 = CommonLayer/Roadlight.Utility
+		SccLocalPath2 = CommonLayer\\Roadlight.Utility
+		SccProjectUniqueName3 = EntityLayer\\Roadlight.DTO\\Roadlight.DTO.csproj
+		SccProjectTopLevelParentUniqueName3 = Roadlight.sln
+		SccProjectName3 = EntityLayer/Roadlight.DTO
+		SccLocalPath3 = EntityLayer\\Roadlight.DTO
+		SccProjectUniqueName4 = EntityLayer\\Roadlight.Entity\\Roadlight.Entity.csproj
+		SccProjectTopLevelParentUniqueName4 = Roadlight.sln
+		SccProjectName4 = EntityLayer/Roadlight.Entity
+		SccLocalPath4 = EntityLayer\\Roadlight.Entity
+		SccProjectUniqueName5 = EntityLayer\\Roadlight.Model\\Roadlight.Model.csproj
+		SccProjectTopLevelParentUniqueName5 = Roadlight.sln
+		SccProjectName5 = EntityLayer/Roadlight.Model
+		SccLocalPath5 = EntityLayer\\Roadlight.Model
+		SccProjectUniqueName6 = PresentationLayer\\Roadlight.ReceiverService\\Roadlight.ReceiverService.csproj
+		SccProjectTopLevelParentUniqueName6 = Roadlight.sln
+		SccProjectName6 = PresentationLayer/Roadlight.ReceiverService
+		SccLocalPath6 = PresentationLayer\\Roadlight.ReceiverService
+		SccProjectUniqueName7 = PresentationLayer\\Roadlight.SenderService\\Roadlight.SenderService.csproj
+		SccProjectTopLevelParentUniqueName7 = Roadlight.sln
+		SccProjectName7 = PresentationLayer/Roadlight.SenderService
+		SccLocalPath7 = PresentationLayer\\Roadlight.SenderService
+		SccProjectUniqueName8 = TestLayer\\Roadlight.Test\\Roadlight.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = Roadlight.sln
+		SccProjectName8 = TestLayer/Roadlight.Test
+		SccLocalPath8 = TestLayer\\Roadlight.Test
+		SccProjectUniqueName9 = APILayer\\dapper-dot-net-master\\Dapper\u0020NET45\\Dapper\u0020NET45.csproj
+		SccProjectTopLevelParentUniqueName9 = Roadlight.sln
+		SccProjectName9 = APILayer/dapper-dot-net-master/Dapper\u0020NET45
+		SccLocalPath9 = APILayer\\dapper-dot-net-master\\Dapper\u0020NET45
+		SccProjectUniqueName10 = APILayer\\EmitMapper\\EmitMapper.csproj
+		SccProjectTopLevelParentUniqueName10 = Roadlight.sln
+		SccProjectName10 = APILayer/EmitMapper
+		SccLocalPath10 = APILayer\\EmitMapper
+		SccProjectUniqueName11 = APILayer\\EasyNetQ\\EasyNetQ.csproj
+		SccProjectTopLevelParentUniqueName11 = Roadlight.sln
+		SccProjectName11 = APILayer/EasyNetQ
+		SccLocalPath11 = APILayer\\EasyNetQ
+		SccProjectUniqueName12 = APILayer\\Newtonsoft.Json\\Newtonsoft.Json.Net40.csproj
+		SccProjectTopLevelParentUniqueName12 = Roadlight.sln
+		SccProjectName12 = APILayer/Newtonsoft.Json
+		SccLocalPath12 = APILayer\\Newtonsoft.Json
+		SccProjectUniqueName13 = DataLayer\\Roadlight.DB\\Roadlight.DB.csproj
+		SccProjectTopLevelParentUniqueName13 = Roadlight.sln
+		SccProjectName13 = DataLayer/Roadlight.DB
+		SccLocalPath13 = DataLayer\\Roadlight.DB
+		SccProjectUniqueName14 = PresentationLayer\\Roadlight.Web\\Roadlight.Web.csproj
+		SccProjectTopLevelParentUniqueName14 = Roadlight.sln
+		SccProjectName14 = PresentationLayer/Roadlight.Web
+		SccLocalPath14 = PresentationLayer\\Roadlight.Web
+		SccProjectUniqueName15 = EntityLayer\\Roadlight.ServiceModel\\Roadlight.ServiceModel.csproj
+		SccProjectTopLevelParentUniqueName15 = Roadlight.sln
+		SccProjectName15 = EntityLayer/Roadlight.ServiceModel
+		SccLocalPath15 = EntityLayer\\Roadlight.ServiceModel
+		SccProjectUniqueName16 = APILayer\\MvcPager\\MvcPager.csproj
+		SccProjectTopLevelParentUniqueName16 = Roadlight.sln
+		SccProjectName16 = APILayer/MvcPager
+		SccLocalPath16 = APILayer\\MvcPager
+		SccProjectUniqueName17 = DataLayer\\Roadlight.ServiceAgent\\Roadlight.ServiceAgent.csproj
+		SccProjectTopLevelParentUniqueName17 = Roadlight.sln
+		SccProjectName17 = DataLayer/Roadlight.ServiceAgent
+		SccLocalPath17 = DataLayer\\Roadlight.ServiceAgent
+		SccProjectUniqueName18 = PresentationLayer\\Roadlight.RedoService\\Roadlight.RedoService.csproj
+		SccProjectTopLevelParentUniqueName18 = Roadlight.sln
+		SccProjectName18 = PresentationLayer/Roadlight.RedoService
+		SccLocalPath18 = PresentationLayer\\Roadlight.RedoService
+		SccProjectUniqueName19 = PresentationLayer\\Roadlight.BuilderService\\Roadlight.BuilderService.csproj
+		SccProjectTopLevelParentUniqueName19 = Roadlight.sln
+		SccProjectName19 = PresentationLayer/Roadlight.BuilderService
+		SccLocalPath19 = PresentationLayer\\Roadlight.BuilderService
+		SccProjectUniqueName20 = PresentationLayer\\Roadlight.OrderScanService\\Roadlight.OrderScanService.csproj
+		SccProjectTopLevelParentUniqueName20 = Roadlight.sln
+		SccProjectName20 = PresentationLayer/Roadlight.OrderScanService
+		SccLocalPath20 = PresentationLayer\\Roadlight.OrderScanService
+		SccProjectUniqueName21 = PresentationLayer\\Roadlight.Monitor\\Roadlight.Monitor.csproj
+		SccProjectTopLevelParentUniqueName21 = Roadlight.sln
+		SccProjectName21 = PresentationLayer/Roadlight.Monitor
+		SccLocalPath21 = PresentationLayer\\Roadlight.Monitor
+		SccProjectUniqueName22 = APILayer\\MySql.Data\\MySql.Data.csproj
+		SccProjectTopLevelParentUniqueName22 = Roadlight.sln
+		SccProjectName22 = APILayer/MySql.Data
+		SccLocalPath22 = APILayer\\MySql.Data
+		SccProjectUniqueName23 = PresentationLayer\\Roadlight.InstuctionService\\Roadlight.InstructionService.csproj
+		SccProjectTopLevelParentUniqueName23 = Roadlight.sln
+		SccProjectName23 = PresentationLayer/Roadlight.InstuctionService
+		SccLocalPath23 = PresentationLayer\\Roadlight.InstuctionService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Develog|Any CPU = Develog|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Develog|Any CPU.ActiveCfg = Develog|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Develog|Any CPU.Build.0 = Develog|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47266636-A5CD-481A-A6D5-0CE5065A3385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Develog|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Develog|Any CPU.Build.0 = Debug|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFE1BBB5-34B0-485A-A77F-B26EA0793E65} = {3CB85D5C-CF9C-4799-B9BE-0A1C177DABA6}
+		{DCFFB632-BC7C-4757-B078-5A15AE88FE1B} = {3CB85D5C-CF9C-4799-B9BE-0A1C177DABA6}
+		{1344941C-F3A1-490E-9AE2-FDF4E458950B} = {0FB0C17E-72F8-4A7C-8D5C-66BE52936BC7}
+		{2C23C782-94C1-409B-8FB1-B61F3730F95F} = {F1823ED0-C006-4E6F-859A-6A4B9ACCBBCF}
+		{0F457A6D-F6A5-4543-B019-A18CDD79673E} = {F1823ED0-C006-4E6F-859A-6A4B9ACCBBCF}
+		{4C14CC1F-B1EB-4F62-BDE2-089E144C95AE} = {F1823ED0-C006-4E6F-859A-6A4B9ACCBBCF}
+		{7396079D-A1CA-44E3-8D18-AA0BC52C43F1} = {F1823ED0-C006-4E6F-859A-6A4B9ACCBBCF}
+		{88CE2922-F17E-4C63-9D01-3F5F6B657171} = {6DC67893-7928-487D-A397-DB30CCF13D12}
+		{F3EE215A-2351-4FC7-A8CC-1159211740E9} = {CAAD855C-793C-48ED-B396-1BF8BAF602F0}
+		{0FFF5BC7-0A4B-4D87-835E-4FAD70937507} = {664EAAC0-92EA-440D-8CA2-63B5A41A70D1}
+		{1B6AB0C8-B8E2-47AC-89E8-8B029EA1BCA2} = {664EAAC0-92EA-440D-8CA2-63B5A41A70D1}
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D} = {664EAAC0-92EA-440D-8CA2-63B5A41A70D1}
+		{47266636-A5CD-481A-A6D5-0CE5065A3385} = {664EAAC0-92EA-440D-8CA2-63B5A41A70D1}
+		{8DB9CF6A-B04B-4519-BF88-D9E1D867F75A} = {6DC67893-7928-487D-A397-DB30CCF13D12}
+	EndGlobalSection
+EndGlobal
